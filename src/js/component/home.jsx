@@ -1,10 +1,9 @@
 import React from "react";
 import PropTypes from 'prop-types';
 import SimpleCounter from "./SimpleCounter";
+import calculateSeconds from "../lib/time";
 
-function calculateSeconds(aCounter, placeValue) {
-      return Math.floor(aCounter / placeValue) % 10
-}
+
 
 const Home = (props) => {
 
